@@ -1,0 +1,33 @@
+.AppLink {
+  color: var(--bg-color)
+}
+
+.primary {
+  color: var(--inverted-primary-color)
+}
+
+.secondary {
+  color: var(--inverted-secondary-color)
+}
+
+.offsetRight {
+  margin-right: 10px;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+// legacy
+.links {
+  margin-left: auto;
+}
+
+.linkItem {
+  margin-right: 10px;
+  color: var(--bg-color)
+}
+
+.linkItem:last-of-type {
+  margin-right: 0;
+}
