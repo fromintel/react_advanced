@@ -15,6 +15,7 @@ export function buildPlugins({ paths, isDev }: BuildOptions): webpack.WebpackPlu
         }),
         new webpack.DefinePlugin({
             _IS_DEV_: JSON.stringify(isDev)
-        })
+        }),
+        new webpack.HotModuleReplacementPlugin()
     ]
 }
