@@ -2,10 +2,8 @@
   height: calc(100vh - var(--navbar-minheight));
   width: var(--sidebar-width);
   background: var(--inverted-bg-color);
-
   position: relative;
-
-  transition: width .2s;
+  transition: width 0.2s;
 }
 
 .collapsed {
