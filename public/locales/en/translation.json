@@ -3,5 +3,8 @@
   "language_btn": "English",
   "page_not_found": "Page not found...",
   "main_nav_page": "Main",
-  "about_nav_page": "About"
+  "about_nav_page": "About",
+  "error_placeholder": "Something went wrong...",
+  "refresh_page": "Refresh page",
+  "throw_error_btn": "Throw error"
 }

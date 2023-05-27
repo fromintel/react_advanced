@@ -1,8 +1,11 @@
 {
   "about": "about",
+  "about_nav_page": "about_nav_page",
+  "error_placeholder": "error_placeholder",
   "language_btn": "language_btn",
   "main": "main",
   "main_nav_page": "main_nav_page",
-  "about_nav_page": "about_nav_page",
-  "page_not_found": "page_not_found"
+  "page_not_found": "page_not_found",
+  "refresh_page": "refresh_page",
+  "throw_error_btn": "throw_error_btn"
 }

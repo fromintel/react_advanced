@@ -3,5 +3,8 @@
   "language_btn": "Українська",
   "page_not_found": "Сторінка не знайдена...",
   "main_nav_page": "Головна",
-  "about_nav_page": "Про сайт"
+  "about_nav_page": "Про сайт",
+  "error_placeholder": "Трапилась якась помилка...",
+  "refresh_page": "Оновити сторінку",
+  "throw_error_btn": "Прокинути помилку"
 }
