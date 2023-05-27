@@ -7,7 +7,9 @@ interface LangSwitcherProps {
     className?: string;
 }
 
-export const LangSwitcher: FC<LangSwitcherProps> = ({ className }: LangSwitcherProps) => {
+export const LangSwitcher: FC<LangSwitcherProps> = (
+  { className }: LangSwitcherProps,
+) => {
   const { t, i18n } = useTranslation();
 
   const toggle = () => {
