@@ -1,5 +1,8 @@
 {
   "about": "about",
   "language_btn": "language_btn",
-  "main": "main"
+  "main": "main",
+  "main_nav_page": "main_nav_page",
+  "about_nav_page": "about_nav_page",
+  "page_not_found": "page_not_found"
 }

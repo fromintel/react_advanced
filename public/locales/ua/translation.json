@@ -1,4 +1,7 @@
 {
   "test_translate": "якийсь текст на українській",
-  "language_btn": "Українська"
+  "language_btn": "Українська",
+  "page_not_found": "Сторінка не знайдена...",
+  "main_nav_page": "Головна",
+  "about_nav_page": "Про сайт"
 }
