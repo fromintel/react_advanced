@@ -46,7 +46,7 @@ module.exports = {
         ['warn',
           { markupOnly: true, ignoreAttribute: ['stroke'] },
         ],
-    'max-len': ['error', { ignoreComments: true }],
+    'max-len': ['error', { ignoreComments: true, code: 100 }],
   },
   globals: {
     _IS_DEV_: true,
