@@ -44,11 +44,19 @@ module.exports = {
     'no-redeclare': 'off',
     'i18next/no-literal-string':
         ['warn',
-          { markupOnly: true, ignoreAttribute: ['stroke'] },
+          { markupOnly: true, ignoreAttribute: ['stroke', 'data-testid'] },
         ],
     'max-len': ['error', { ignoreComments: true, code: 100 }],
   },
   globals: {
     _IS_DEV_: true,
   },
+  overrides: [
+    {
+      files: ['**/src/**/*.test.{ts,tsx}'],
+      rules: {
+        'i18next/no-literal-string': 'off',
+      },
+    },
+  ],
 };
