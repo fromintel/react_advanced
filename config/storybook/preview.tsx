@@ -3,6 +3,18 @@ import { StyleDecorator } from '../../src/shared/config/storybook/StyleDecorator
 import { RouterDecorator } from '../../src/shared/config/storybook/RouterDecorator/RouterDecorator';
 import { WithI18next } from '../../src/shared/config/storybook/i18nDecorator/i18nDecorator';
 
+export const globalTypes = {
+  locale: {
+    toolbar: {
+      icon: 'globe',
+      items: [
+        { value: 'en', title: 'English' },
+        { value: 'ua', title: 'Ukrainian' },
+      ],
+    },
+  },
+};
+
 const preview: Preview = {
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
