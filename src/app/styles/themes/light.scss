@@ -1,3 +1,5 @@
+:root, // without root the styles handled not immediately
+.light #storybook-root,
 .app.light {
   --bg-color: #edf2f4;
   --inverted-bg-color: #52796f;
