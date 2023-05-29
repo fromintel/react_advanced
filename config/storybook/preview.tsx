@@ -1,6 +1,19 @@
 import type { Preview } from '@storybook/react';
 import { StyleDecorator } from '../../src/shared/config/storybook/StyleDecorator/StyleDecorator';
 import { RouterDecorator } from '../../src/shared/config/storybook/RouterDecorator/RouterDecorator';
+import { WithI18next } from '../../src/shared/config/storybook/i18nDecorator/i18nDecorator';
+
+export const globalTypes = {
+  locale: {
+    toolbar: {
+      icon: 'globe',
+      items: [
+        { value: 'en', title: 'English' },
+        { value: 'ua', title: 'Ukrainian' },
+      ],
+    },
+  },
+};
 
 const preview: Preview = {
   parameters: {
@@ -20,7 +33,7 @@ const preview: Preview = {
     },
   },
   // decorators: [StyleDecorator, ThemeDecorator(Theme.LIGHT)], // Here we can use custom theme decorator instead of native approach
-  decorators: [StyleDecorator, RouterDecorator],
+  decorators: [StyleDecorator, RouterDecorator, WithI18next],
 };
 
 export default preview;
