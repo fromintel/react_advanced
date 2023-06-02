@@ -6,10 +6,6 @@
   transition: width 0.2s;
 }
 
-.collapsed {
-  width: var(--sidebar-width-collapsed);
-}
-
 .switchers {
   position: absolute;
   bottom: 20px;
@@ -20,4 +16,53 @@
 
 .lang {
   margin-left: 20px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.link {
+  margin-left: 10px;
+}
+
+.icon {
+  min-width: 20px;
+  min-height: 20px;
+  width: 20px;
+  height: 20px;
+  fill: var(--inverted-primary-color);
+}
+
+.collapseBtn {
+  position: absolute;
+  right: -32px;
+  bottom: 32px;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+
+  .switchers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lang {
+    margin-left: 0;
+  }
+
+  .link {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
 }

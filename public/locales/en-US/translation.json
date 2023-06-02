@@ -1,11 +1,11 @@
 {
   "test_translate": "some text in English test",
   "language_btn": "English",
+  "short_lang_btn": "EN",
   "page_not_found": "Page not found...",
   "main_nav_page": "Main",
   "about_nav_page": "About",
   "error_placeholder": "Something went wrong...",
   "refresh_page": "Refresh page",
-  "throw_error_btn": "Throw error",
-  "toggle_btn": "toggle"
+  "throw_error_btn": "Throw error"
 }
