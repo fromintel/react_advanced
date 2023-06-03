@@ -7,5 +7,7 @@
   "about_nav_page": "Про сайт",
   "error_placeholder": "Трапилась якась помилка...",
   "refresh_page": "Оновити сторінку",
-  "throw_error_btn": "Прокинути помилку"
+  "throw_error_btn": "Прокинути помилку",
+  "log_in": "Увійти",
+  "modal_mock_content": "якийсь текст в модалці"
 }
