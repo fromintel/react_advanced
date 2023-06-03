@@ -9,5 +9,7 @@
   "refresh_page": "Refresh page",
   "throw_error_btn": "Throw error",
   "log_in": "Log in",
-  "modal_mock_content": "some modal text"
+  "modal_mock_content": "some modal text",
+  "increment_btn": "increment",
+  "decrement_btn": "decrement"
 }
