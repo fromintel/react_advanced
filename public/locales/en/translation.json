@@ -7,5 +7,7 @@
   "about_nav_page": "About",
   "error_placeholder": "Something went wrong...",
   "refresh_page": "Refresh page",
-  "throw_error_btn": "Throw error"
+  "throw_error_btn": "Throw error",
+  "log_in": "Log in",
+  "modal_mock_content": "some modal text"
 }
