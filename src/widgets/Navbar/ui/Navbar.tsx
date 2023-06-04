@@ -29,7 +29,7 @@ export const Navbar = ({ className }: NavbarProps) => {
       <Modal
         isOpen={isAuthModal}
         onClose={onToggleModal}
-        rootContainer={document.body}
+        rootContainer={document.querySelector('.app')}
       >
         {t('modal_mock_content')}
       </Modal>
