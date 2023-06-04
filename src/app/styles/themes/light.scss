@@ -1,6 +1,6 @@
 :root, // without root the styles handled not immediately
-.light #storybook-root,
-.app.light {
+.app_light_theme #storybook-root, // !important: need to check this class for the preview.ts of storybook
+.app_light_theme {
   --bg-color: #edf2f4;
   --inverted-bg-color: #52796f;
   --primary-color: #2b2d42;
