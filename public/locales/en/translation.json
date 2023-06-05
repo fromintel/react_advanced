@@ -9,7 +9,9 @@
   "refresh_page": "Refresh page",
   "throw_error_btn": "Throw error",
   "log_in": "Log in",
-  "modal_mock_content": "some modal text",
   "increment_btn": "increment",
-  "decrement_btn": "decrement"
+  "decrement_btn": "decrement",
+  "login_btn": "Login",
+  "username_placeholder": "Enter the username...",
+  "password_placeholder": "Enter the password..."
 }
