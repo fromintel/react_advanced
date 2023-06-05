@@ -9,7 +9,9 @@
   "refresh_page": "Оновити сторінку",
   "throw_error_btn": "Прокинути помилку",
   "log_in": "Увійти",
-  "modal_mock_content": "якийсь текст в модалці",
   "increment_btn": "збільшити",
-  "decrement_btn": "зменшити"
+  "decrement_btn": "зменшити",
+  "login_btn": "Увійти",
+  "username_placeholder": "Введіть свій юзернейм...",
+  "password_placeholder": "Введіть свій пароль..."
 }

@@ -11,6 +11,7 @@ interface ModalProps {
     isOpen?: boolean;
     onClose?: () => void;
     rootContainer?: HTMLElement;
+    isLazy?: boolean;
 }
 
 const ANIMATION_DELAY = 300;
@@ -22,10 +23,12 @@ export const Modal: FC<ModalProps> = (props: ModalProps) => {
     isOpen,
     onClose,
     rootContainer,
+    isLazy,
   } = props;
 
   const timerRef = useRef<ReturnType<typeof setTimeout>>();
   const [isClosing, setIsClosing] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   const mods: Record<string, boolean> = {
     [cls.opened]: isOpen,
@@ -38,6 +41,7 @@ export const Modal: FC<ModalProps> = (props: ModalProps) => {
       timerRef.current = setTimeout(() => {
         onClose();
         setIsClosing(false);
+        setIsMounted(false);
       }, ANIMATION_DELAY);
     }
   }, [onClose]);
@@ -47,6 +51,13 @@ export const Modal: FC<ModalProps> = (props: ModalProps) => {
       closeHandler();
     }
   }, [closeHandler]);
+
+  // handle mounting of modal
+  useEffect(() => {
+    if (isOpen) {
+      setIsMounted(true);
+    }
+  }, [isOpen]);
 
   useEffect(() => {
     if (isOpen) {
@@ -61,6 +72,10 @@ export const Modal: FC<ModalProps> = (props: ModalProps) => {
   const onContentClick = (e: React.MouseEvent) => {
     e.stopPropagation();
   };
+
+  if (isLazy && !isMounted) {
+    return null;
+  }
 
   return (
     rootContainer
