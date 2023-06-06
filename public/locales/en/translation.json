@@ -13,5 +13,7 @@
   "decrement_btn": "decrement",
   "login_btn": "Login",
   "username_placeholder": "Enter the username...",
-  "password_placeholder": "Enter the password..."
+  "password_placeholder": "Enter the password...",
+  "login_form_title": "Login form",
+  "login_error_incorrect_credentials": "You entered incorrect username or password"
 }
