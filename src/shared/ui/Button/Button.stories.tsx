@@ -5,7 +5,6 @@ import { Button, ButtonSize, ButtonTheme } from './Button';
 const meta: Meta<typeof Button> = {
   title: 'shared/Button',
   component: Button,
-  tags: ['autodocs'],
 };
 
 export default meta;
@@ -81,5 +80,13 @@ export const SquareXL: Story = {
     children: '<',
     isSquare: true,
     size: ButtonSize.XL,
+  },
+};
+
+export const Disabled: Story = {
+  args: {
+    children: 'disabled',
+    size: ButtonSize.XL,
+    disabled: true,
   },
 };
