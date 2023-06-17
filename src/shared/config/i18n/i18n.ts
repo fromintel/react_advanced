@@ -9,6 +9,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    returnNull: false,
     fallbackLng: 'en',
     debug: _IS_DEV_,
 
