@@ -25,5 +25,14 @@
       "password": "123"
     }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "firstname": "Anton",
+    "lastname": "Zolotukhin",
+    "age": 27,
+    "country": "Germany",
+    "city": "Hannover",
+    "currency": "EUR",
+    "username": "zoltan",
+    "avatar": "https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png"
+  }
 }

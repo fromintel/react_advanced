@@ -5,6 +5,7 @@
   "page_not_found": "Сторінка не знайдена...",
   "main_nav_page": "Головна",
   "about_nav_page": "Про сайт",
+  "profile_nav_page": "Профіль",
   "error_placeholder": "Трапилась якась помилка...",
   "refresh_page": "Оновити сторінку",
   "throw_error_btn": "Прокинути помилку",
@@ -16,5 +17,6 @@
   "password_placeholder": "Введіть свій пароль...",
   "login_form_title": "Форма авторизації",
   "login_error_incorrect_credentials": "Ви ввели неправильний юзернейм або пароль",
-  "log_out": "Вийти"
+  "log_out": "Вийти",
+  "profile_page": "profile_page"
 }
