@@ -5,6 +5,7 @@
   "page_not_found": "Page not found...",
   "main_nav_page": "Main",
   "about_nav_page": "About",
+  "profile_nav_page": "Profile",
   "error_placeholder": "Something went wrong...",
   "refresh_page": "Refresh page",
   "throw_error_btn": "Throw error",
@@ -16,5 +17,6 @@
   "password_placeholder": "Enter the password...",
   "login_form_title": "Login form",
   "login_error_incorrect_credentials": "You entered incorrect username or password",
-  "log_out": "Logout"
+  "log_out": "Logout",
+  "profile_page": "profile_page"
 }
