@@ -53,9 +53,11 @@ module.exports = {
           { markupOnly: true, ignoreAttribute: ['stroke', 'data-testid', 'to'] },
         ],
     'max-len': ['error', { ignoreComments: true, code: 110 }],
+    'no-undef': 'off',
   },
   globals: {
     _IS_DEV_: true,
+    _API_: true,
   },
   overrides: [
     {

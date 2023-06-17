@@ -17,6 +17,7 @@ export default {
   // Automatically clear mock calls, instances and results before every test
   globals: {
     _IS_DEV_: true,
+    _API_: '',
   },
   clearMocks: true,
   testEnvironment: 'jsdom',

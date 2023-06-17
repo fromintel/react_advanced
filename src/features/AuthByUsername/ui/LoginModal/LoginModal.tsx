@@ -18,7 +18,7 @@ export const LoginModal: FC<LoginModalProps> = (
     isOpen={isOpen}
     onClose={onClose}
     className={classNames(cls.LoginModal, {}, [className])}
-    rootContainer={document.querySelector('.app')}
+    rootContainer={document.querySelector<HTMLElement>('.app')}
     isLazy
   >
     <Suspense fallback={<Loader />}>

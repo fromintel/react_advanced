@@ -12,7 +12,8 @@
     "allowSyntheticDefaultImports": true,
     "paths": {
       "*": ["./src/*"]
-    }
+    },
+    "strict": true
   },
   "ts-node": {
     "compilerOptions": {
