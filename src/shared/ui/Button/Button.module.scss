@@ -16,6 +16,13 @@
   outline: none;
 }
 
+.outline_red {
+  border: 1px solid var(--red-light);
+  color: var(--red-dark);
+  outline: none;
+  background: var(--inverted-outline-bg-color);
+}
+
 .background,
 .backgroundInverted {
   border: none;
