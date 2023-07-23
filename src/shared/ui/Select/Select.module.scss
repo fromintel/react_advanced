@@ -1,0 +1,17 @@
+.Select {
+  display: flex;
+}
+
+.selectControl {
+  background: none;
+  outline: none;
+  color: var(--primary-color);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid var(--inverted-bg-color);
+}
+
+.selectLabel {
+  margin-right: 10px;
+}
