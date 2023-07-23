@@ -7,6 +7,10 @@
   color: var(--primary-color);
   background: transparent;
 
+  &.readonly {
+    opacity: 0.6;
+  }
+
   &:focus {
     outline: none;
   }
