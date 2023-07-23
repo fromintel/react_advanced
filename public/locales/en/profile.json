@@ -2,5 +2,16 @@
   "enter_your_name": "Enter your first name",
   "enter_your_lastname": "Enter your last name",
   "profile_title": "Profile",
-  "edit_profile": "Edit Profile data"
+  "edit_profile": "Edit Profile data",
+  "refresh_page_notification": "Please refresh the page",
+  "error_placeholder_profile": "Something went wrong with loading profile...",
+  "decline_changes_profile": "Decline profile changes",
+  "save_changes_profile": "Save profile changes",
+  "enter_your_age": "Enter your age",
+  "enter_your_city": "Enter your city",
+  "enter_your_username": "Enter your username",
+  "enter_the_link_on_avatar": "Enter the link on your avatar",
+  "avatar_alt": "avatar image",
+  "enter_currency": "Enter your currency",
+  "enter_countries": "Enter your country"
 }
