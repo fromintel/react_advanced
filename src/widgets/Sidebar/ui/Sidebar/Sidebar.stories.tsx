@@ -13,5 +13,10 @@ type Story = StoryObj<typeof Sidebar>;
 
 export const Primary: Story = {
   args: {},
-  decorators: [StoreDecorator({ loginForm: { username: '123', password: '123' } })],
+  decorators: [StoreDecorator({ user: { authData: {} } })],
+};
+
+export const NoAuth: Story = {
+  args: {},
+  decorators: [StoreDecorator({ user: {} })],
 };
