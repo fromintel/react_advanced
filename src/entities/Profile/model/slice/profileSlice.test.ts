@@ -1,6 +1,9 @@
-import { profileActions, profileReducer, ProfileSchema } from 'entities/Profile';
+import {
+  profileActions, profileReducer, ProfileSchema, updateProfileData,
+} from 'entities/Profile';
 import { Countries } from 'entities/Countries';
 import { Currency } from 'entities/Currency';
+import { ValidateProfileError } from 'entities/Profile/model/types/profile';
 
 const data = {
   firstname: 'Anton',
@@ -38,6 +41,36 @@ describe('profileSlice.test', () => {
         profileActions.updateProfile({ username: 'updatedUsername' }),
     )).toEqual({
       form: { username: 'updatedUsername' },
+    });
+  });
+
+  test('should update profile in pending', () => {
+    const state: DeepPartial<ProfileSchema> = {
+      isLoading: false,
+      validateError: [ValidateProfileError.SERVER_ERROR],
+    };
+    expect(profileReducer(
+        state as ProfileSchema,
+        updateProfileData.pending,
+    )).toEqual({
+      isLoading: true,
+      validateError: undefined,
+    });
+  });
+
+  test('should update profile in fulfilled', () => {
+    const state: DeepPartial<ProfileSchema> = {
+      isLoading: true,
+    };
+    expect(profileReducer(
+        state as ProfileSchema,
+        updateProfileData.fulfilled(data, ''),
+    )).toEqual({
+      isLoading: false,
+      isReadonly: true,
+      validateError: undefined,
+      form: data,
+      data,
     });
   });
 });
