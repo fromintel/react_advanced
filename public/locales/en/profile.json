@@ -13,5 +13,10 @@
   "enter_the_link_on_avatar": "Enter the link on your avatar",
   "avatar_alt": "avatar image",
   "enter_currency": "Enter your currency",
-  "enter_countries": "Enter your country"
+  "enter_countries": "Enter your country",
+  "validation_server_error": "Server error while validation was performing...",
+  "validation_no_data": "Unavailable error. No data received. Please try again",
+  "incorrect_age": "You entered incorrect age",
+  "incorrect_user_data": "You entered incorrect firstname or lastname",
+  "incorrect_country": "You choosed incorrect country"
 }
