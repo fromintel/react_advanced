@@ -2,5 +2,16 @@
   "enter_your_name": "Введіть ваше імʼя",
   "enter_your_lastname": "Введіть вашу фамілію",
   "profile_title": "Профіль",
-  "edit_profile": "Редагувати дані профілю"
+  "edit_profile": "Редагувати дані профілю",
+  "refresh_page_notification": "Будь-ласка оновіть сторінку",
+  "error_placeholder_profile": "Щось відбулося з підгрузкою даних профілю...",
+  "decline_changes_profile": "Відмінити зміни профілю",
+  "save_changes_profile": "Зберегти зміни профайлу",
+  "enter_your_age": "Введіть ваш вік",
+  "enter_your_city": "Введіть місто",
+  "enter_your_username": "Введіть ваш юзернейм",
+  "enter_the_link_on_avatar": "Введіть посилання на аватар",
+  "avatar_alt": "зображення аватвру",
+  "enter_currency": "Укажіть валюту",
+  "enter_countries": "Введіть країну проживання"
 }

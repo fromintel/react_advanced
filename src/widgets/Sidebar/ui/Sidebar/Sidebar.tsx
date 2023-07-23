@@ -5,7 +5,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { ThemeSwitcher } from 'widgets/ThemeSwitcher';
 import { LangSwitcher } from 'widgets/LangSwitcher';
 import { Button, ButtonSize, ButtonTheme } from 'shared/ui/Button/Button';
-import { SidebarItemsList } from '../../model/items';
+import { SidebarItemsList, SidebarItemType } from '../../model/items';
 import { SidebarItem } from '../SidebarItem/SidebarItem';
 import cls from './Sidebar.module.scss';
 
@@ -21,7 +21,7 @@ export const Sidebar: FC<SidebarProps> = memo(({ className }: SidebarProps) => {
   };
 
   const itemsList = useMemo(() => (
-    SidebarItemsList.map((item) => (
+    SidebarItemsList.map((item: SidebarItemType) => (
       <SidebarItem item={item} collapsed={collapsed} key={item.path} />
     ))
   ), [collapsed]);
