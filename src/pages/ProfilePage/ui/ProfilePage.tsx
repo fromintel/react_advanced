@@ -50,7 +50,9 @@ const ProfilePage: FC<ProfilePageProps> = ({ className }: ProfilePageProps) => {
   };
 
   useEffect(() => {
-    dispatch(fetchProfileData());
+    if (_PROJECT_ === 'frontend') {
+      dispatch(fetchProfileData());
+    }
   }, [dispatch]);
 
   const onChangeFirstname = useCallback((value?: string) => {

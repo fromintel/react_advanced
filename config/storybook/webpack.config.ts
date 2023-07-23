@@ -27,6 +27,7 @@ export default ({ config }: {config: webpack.Configuration}) => {
     new webpack.DefinePlugin({
       _IS_DEV_: JSON.stringify(false),
       _API_: JSON.stringify(''),
+      _PROJECT_: JSON.stringify('storybook'),
     }),
   );
 
