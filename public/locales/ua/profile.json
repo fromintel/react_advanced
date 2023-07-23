@@ -13,5 +13,10 @@
   "enter_the_link_on_avatar": "Введіть посилання на аватар",
   "avatar_alt": "зображення аватвру",
   "enter_currency": "Укажіть валюту",
-  "enter_countries": "Введіть країну проживання"
+  "enter_countries": "Введіть країну проживання",
+  "validation_server_error": "Помилка на сервері",
+  "validation_no_data": "Невідома помилка. Спробуйте ще раз",
+  "incorrect_age": "Ви ввели некоректний вік",
+  "incorrect_user_data": "Ви ввели некоретне імʼя або фамілію",
+  "incorrect_country": "Ви ввели некоректну країну"
 }
