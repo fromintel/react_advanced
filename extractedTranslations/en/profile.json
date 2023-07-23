@@ -1,5 +1,7 @@
 {
   "avatar_alt": "",
+  "decline_changes_profile": "",
+  "edit_profile": "",
   "enter_the_link_on_avatar": "",
   "enter_your_age": "",
   "enter_your_city": "",
@@ -7,5 +9,7 @@
   "enter_your_name": "",
   "enter_your_username": "",
   "error_placeholder_profile": "",
-  "refresh_page_notification": ""
+  "profile_title": "",
+  "refresh_page_notification": "",
+  "save_changes_profile": ""
 }
