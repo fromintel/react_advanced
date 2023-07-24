@@ -32,9 +32,3 @@ export const ProfileCardInLoading: Story = {
     isLoading: true,
   },
 };
-
-export const ProfileCardInError: Story = {
-  args: {
-    error: 'error',
-  },
-};
