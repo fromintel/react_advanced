@@ -24,6 +24,9 @@ jobs:
       - name: screenshots testing
         run: npm run test:ui:ci
         if: always()
+      - name: approve screenshots
+        run: npm run test:ui:approve
+        if: always()
       - name: build storybook
         run: npm run storybook:build
         if: always()
