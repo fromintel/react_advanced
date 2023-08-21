@@ -9,12 +9,12 @@
   "enter_your_name": "enter_your_name",
   "enter_your_username": "enter_your_username",
   "error_placeholder_profile": "error_placeholder_profile",
+  "incorrect_age": "incorrect_age",
+  "incorrect_country": "incorrect_country",
+  "incorrect_user_data": "incorrect_user_data",
   "profile_title": "profile_title",
   "refresh_page_notification": "refresh_page_notification",
   "save_changes_profile": "save_changes_profile",
-  "validation_server_error": "validation_server_error",
   "validation_no_data": "validation_no_data",
-  "incorrect_age": "incorrect_age",
-  "incorrect_user_data": "incorrect_user_data",
-  "incorrect_country": "incorrect_country"
+  "validation_server_error": "validation_server_error"
 }

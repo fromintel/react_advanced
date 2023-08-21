@@ -1,4 +1,3 @@
-import webpack from 'webpack';
 import path from 'path';
 import { buildWebpackConfig } from './config/build/buildWebpackConfig';
 import { BuildEnv, BuildPaths } from './config/build/types/config';
@@ -16,13 +15,12 @@ export default (env: BuildEnv) => {
   const PORT = env.port || 3000;
   const apiUrl = env.apiUrl || 'http://localhost:8000';
 
-  const config: webpack.Configuration = buildWebpackConfig({
+  return buildWebpackConfig({
     mode,
     paths,
     isDev,
     port: PORT,
     apiUrl,
+    project: 'frontend',
   });
-
-  return config;
 };
