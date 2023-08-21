@@ -4,12 +4,13 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
-import { useDispatch } from 'react-redux';
-import { userActions } from 'entities/User';
+import { useDispatch, useSelector } from 'react-redux';
+import { getUserIsMounted, userActions } from 'entities/User';
 
 function App() {
   const { theme } = useTheme();
   const dispatch = useDispatch();
+  const isMounted = useSelector(getUserIsMounted);
 
   useEffect(() => {
     dispatch(userActions.initAuthData());
@@ -21,7 +22,7 @@ function App() {
         <Navbar />
         <main className="content-page">
           <Sidebar />
-          <AppRouter />
+          {isMounted && <AppRouter />}
         </main>
       </Suspense>
     </div>
