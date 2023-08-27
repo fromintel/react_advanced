@@ -6,6 +6,7 @@
   "main_nav_page": "Main",
   "about_nav_page": "About",
   "profile_nav_page": "Profile",
+  "article_nav_page": "Articles",
   "error_placeholder": "Something went wrong...",
   "refresh_page": "Refresh page",
   "throw_error_btn": "Throw error",
