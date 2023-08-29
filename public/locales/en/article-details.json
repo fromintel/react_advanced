@@ -1,0 +1,8 @@
+{
+  "article_details_error": "Something went wrong with fetching the article...",
+  "article_details_page": "Article details page",
+  "article_details_content": "Article details content",
+  "article_code_block_component": "Article code block component",
+  "article_image_block_component": "Article image block component",
+  "article_text_block_component": "Article text block component"
+}

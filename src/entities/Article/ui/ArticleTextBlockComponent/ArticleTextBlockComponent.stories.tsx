@@ -1,15 +1,15 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import ArticleDetailsPage from './ArticleDetailsPage';
+import { ArticleTextBlockComponent } from './ArticleTextBlockComponent';
 
-const meta: Meta<typeof ArticleDetailsPage> = {
-  title: 'pages/ArticleDetailsPage',
-  component: ArticleDetailsPage,
+const meta: Meta<typeof ArticleTextBlockComponent> = {
+  title: 'pages/ArticleTextBlockComponent',
+  component: ArticleTextBlockComponent,
 };
 
 export default meta;
-type Story = StoryObj<typeof ArticleDetailsPage>;
+type Story = StoryObj<typeof ArticleTextBlockComponent>;
 
 export const Light: Story = {
   args: {},
