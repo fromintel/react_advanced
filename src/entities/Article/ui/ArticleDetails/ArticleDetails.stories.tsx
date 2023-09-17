@@ -153,14 +153,3 @@ export const Loading: Story = {
     },
   })],
 };
-
-export const Error: Story = {
-  args: {
-    children: 'text',
-  },
-  decorators: [StoreDecorator({
-    articleDetails: {
-      error: 'error',
-    },
-  })],
-};
