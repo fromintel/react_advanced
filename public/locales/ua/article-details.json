@@ -2,7 +2,6 @@
   "article_details_error": "Виникла помилка при завантаженні статті...",
   "article_details_page": "Сторінка деталей статті",
   "article_details_content": "Контент статті",
-  "article_code_block_component": "блок коду",
   "article_image_block_component": "блок картинки",
   "article_text_block_component": "блок тексту"
 }
