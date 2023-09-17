@@ -8,3 +8,5 @@ node_modules
 
 # some stories that are not passed correctly in the origin repo
 /src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx
+/.loki/reference/chrome_iphone7_entities_ArticleDetails_Error.png
+/.loki/reference/chrome_laptop_entities_ArticleDetails_Error.png
