@@ -5,6 +5,3 @@ node_modules
 /storybook-static
 /.loki/report.html
 /.loki/report.json
-
-# some stories that are not passed correctly in the origin repo
-/src/entities/Article/ui/ArticleDetails/ArticleDetails.stories.tsx
