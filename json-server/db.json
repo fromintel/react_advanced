@@ -161,13 +161,15 @@
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "ADMIN"
+      "role": "ADMIN",
+      "avatar": "https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png"
     },
     {
       "id": "1",
       "username": "admin",
       "password": "123",
-      "role": "USER"
+      "role": "USER",
+      "avatar": "https://img.freepik.com/premium-vector/mans-head-avatar-vector_83738-354.jpg"
     }
   ],
   "profile": {
