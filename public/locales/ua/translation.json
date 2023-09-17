@@ -18,5 +18,7 @@
   "password_placeholder": "Введіть свій пароль...",
   "login_form_title": "Форма авторизації",
   "login_error_incorrect_credentials": "Ви ввели неправильний юзернейм або пароль",
-  "log_out": "Вийти"
+  "log_out": "Вийти",
+  "comments_error_title": "Коментарі недоступні",
+  "comments_error_subtitle": "Будь-ласка спробуйте перезавантажити сторінку щоб завантажити коментарі тут"
 }
