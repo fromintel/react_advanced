@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { Text } from './Text';
+import { Text, TextSize } from './Text';
 
 const meta: Meta<typeof Text> = {
   title: 'shared/Text',
@@ -43,5 +43,21 @@ export const OnlyTitle: Story = {
 export const OnlyText: Story = {
   args: {
     text: 'some text',
+  },
+};
+
+export const SizeM: Story = {
+  args: {
+    title: 'Title text',
+    text: 'some text',
+    size: TextSize.M,
+  },
+};
+
+export const SizeL: Story = {
+  args: {
+    title: 'Title text',
+    text: 'some text',
+    size: TextSize.L,
   },
 };

@@ -8,8 +8,36 @@
 
 .title {
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .skeleton {
   margin-top: 15px;
+}
+
+.icon {
+  max-width: 25px;
+  width: 100%;
+  margin-right: 8px;
+}
+
+.articleInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.avatarWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.block {
+  margin-top: 14px;
 }
