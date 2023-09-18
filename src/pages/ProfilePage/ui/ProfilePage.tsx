@@ -1,4 +1,4 @@
-import { FC, useCallback, useEffect } from 'react';
+import { FC, useCallback } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import {
   DynamicModuleLoader,
@@ -16,12 +16,14 @@ import {
   profileReducer,
 } from 'entities/Profile';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
+import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { useSelector } from 'react-redux';
 import { Currency } from 'entities/Currency';
 import { Countries } from 'entities/Countries';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
 import { useTranslation } from 'react-i18next';
 import { ValidateProfileError } from 'entities/Profile/model/types/profile';
+import { useParams } from 'react-router-dom';
 import { ProfilePageHeader } from './ProfilePageHeader/ProfilePageHeader';
 
 const reducers: ReducersList = {
@@ -40,6 +42,7 @@ const ProfilePage: FC<ProfilePageProps> = ({ className }: ProfilePageProps) => {
   const error = useSelector(getProfileError);
   const isReadonly = useSelector(getProfileReadonly);
   const validateErrors = useSelector(getProfileValidateErrors);
+  const { id } = useParams<{ id: string }>();
 
   const validateErrorsTranslates = {
     [ValidateProfileError.SERVER_ERROR]: t('validation_server_error'),
@@ -49,11 +52,11 @@ const ProfilePage: FC<ProfilePageProps> = ({ className }: ProfilePageProps) => {
     [ValidateProfileError.INCORRECT_COUNTRY]: t('incorrect_country'),
   };
 
-  useEffect(() => {
-    if (_PROJECT_ === 'frontend') {
-      dispatch(fetchProfileData());
+  useInitialEffect(() => {
+    if (id) {
+      dispatch(fetchProfileData(id));
     }
-  }, [dispatch]);
+  });
 
   const onChangeFirstname = useCallback((value?: string) => {
     dispatch(profileActions.updateProfile({ firstname: value || '' }));

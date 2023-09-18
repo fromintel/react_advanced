@@ -172,14 +172,28 @@
       "avatar": "https://img.freepik.com/premium-vector/mans-head-avatar-vector_83738-354.jpg"
     }
   ],
-  "profile": {
-    "firstname": "Anton",
-    "lastname": "Zolotukhin",
-    "age": 27,
-    "country": "Germany",
-    "city": "Hannover",
-    "currency": "EUR",
-    "username": "zoltan",
-    "avatar": "https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "firstname": "Anton",
+      "lastname": "Zolotukhin",
+      "age": 27,
+      "country": "Germany",
+      "city": "Hannover",
+      "currency": "EUR",
+      "username": "zoltan",
+      "avatar": "https://e7.pngegg.com/pngimages/799/987/png-clipart-computer-icons-avatar-icon-design-avatar-heroes-computer-wallpaper.png"
+    },
+    {
+      "id": "2",
+      "firstname": "John",
+      "lastname": "Marston",
+      "age": 35,
+      "country": "Spain",
+      "city": "Barcelona",
+      "currency": "EUR",
+      "username": "jmarst",
+      "avatar": "https://img.freepik.com/premium-vector/mans-head-avatar-vector_83738-354.jpg"
+    }
+  ]
 }
