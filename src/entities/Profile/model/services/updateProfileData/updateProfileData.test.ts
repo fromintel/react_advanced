@@ -12,6 +12,7 @@ const data = {
   city: 'Hannover',
   currency: Currency.UAH,
   username: 'zoltan',
+  id: '1',
 };
 
 describe('updateProfileData.test', () => {

@@ -20,5 +20,7 @@
   "login_error_incorrect_credentials": "You entered incorrect username or password",
   "log_out": "Logout",
   "comments_error_title": "Comments are unavailable for now...",
-  "comments_error_subtitle": "Please try to refresh the page to get all comments for this article"
+  "comments_error_subtitle": "Please try to refresh the page to get all comments for this article",
+  "enter_comment": "Please enter the comment...",
+  "send_comment": "Send comment"
 }
