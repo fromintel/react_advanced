@@ -30,10 +30,3 @@ export const Dark: Story = {
   args: {},
   decorators: [ThemeDecorator(Theme.DARK)],
 };
-
-export const isLoading: Story = {
-  args: {
-    isLoading: true,
-  },
-  decorators: [ThemeDecorator(Theme.DARK)],
-};
