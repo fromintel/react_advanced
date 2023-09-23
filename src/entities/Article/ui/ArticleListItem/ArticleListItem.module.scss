@@ -1,0 +1,112 @@
+.ArticleListItem {
+  width: 100%;
+}
+
+.eyeIcon {
+  max-width: 20px;
+  width: 100%;
+}
+
+.views {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.listItem {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+  .info {
+    margin-top: 10px;
+    margin-left: auto;
+  }
+
+  .date {
+    margin-left: auto;
+  }
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    margin: 15px 0;
+  }
+
+  .textBlock {
+    max-height: 200px;
+    overflow-y: hidden;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.tile {
+  width: 220px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.03);
+  }
+
+  .imgWrapper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .date {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  :hover {
+    .date {
+      display: block;
+    }
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .types p {
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .title {
+    margin-top: 10px;
+  }
+
+  .title p {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
