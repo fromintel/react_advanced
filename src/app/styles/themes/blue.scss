@@ -1,18 +1,21 @@
 :root, // without root the styles handled not immediately
 .app_blue_theme #storybook-root, // !important: need to check this class for the preview.ts of storybook
 .app_blue_theme {
-  --bg-color: #1296fc;
+  --bg-color: #708ab0;
   --inverted-bg-color: #f4f8fb;
   --inverted-outline-bg-color: #c0c0c0;
   --primary-color: #fff;
-  --secondary-color: #cad2c5;
+  --secondary-color: #cfe5ef;
   --inverted-primary-color: #084779;
   --inverted-secondary-color: #00535b;
 
   // skeleton
-  --skeleton-color: #4fa9ff;
+  --skeleton-color: #254e77;
   --skeleton-shadow: #2a6188;
 
   // code
-  --code-bg: #4aa9ff;
+  --code-bg: #193f59;
+
+  // card
+  --card-bg: #84a2ce;
 }
