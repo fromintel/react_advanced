@@ -3,5 +3,6 @@
   "article_details_content": "Контент статті",
   "article_image_block_component": "блок картинки",
   "article_text_block_component": "блок тексту",
-  "comments_title": "Коментарі"
+  "comments_title": "Коментарі",
+  "back_to_list": "Назад до списку статей"
 }

@@ -1,20 +1,20 @@
 import { FC, memo } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
-import { useTranslation } from 'react-i18next';
+import { ArticleList, ArticleView } from 'entities/Article';
 import cls from './ArticlesPage.module.scss';
 
 interface ArticlesPageProps {
     className?: string;
 }
 
-const ArticlesPage: FC<ArticlesPageProps> = ({ className }: ArticlesPageProps) => {
-  const { t } = useTranslation('article');
-
-  return (
-    <div className={classNames(cls.ArticlesPage, {}, [className])}>
-      {t('article_page')}
-    </div>
-  );
-};
+const ArticlesPage: FC<ArticlesPageProps> = ({ className }: ArticlesPageProps) => (
+  <div className={classNames(cls.ArticlesPage, {}, [className])}>
+    <ArticleList
+      isLoading
+      articles={[]}
+      view={ArticleView.LIST_ITEM}
+    />
+  </div>
+);
 
 export default memo(ArticlesPage);

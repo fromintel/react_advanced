@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { ArticleDetails } from 'entities/Article';
+import { Article, ArticleDetails } from 'entities/Article';
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
 
@@ -11,12 +11,16 @@ const meta: Meta<typeof ArticleDetails> = {
 export default meta;
 type Story = StoryObj<typeof ArticleDetails>;
 
-const article = {
+const article: Article = {
   id: '1',
   title: 'Article title 1',
   subtitle: 'Article subtitle 1',
   img: 'https://www.vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg',
   views: 1745,
+  user: {
+    id: '1',
+    username: 'username',
+  },
   createdAt: '11.04.2022',
   type: [
     ArticleType.OTHER,

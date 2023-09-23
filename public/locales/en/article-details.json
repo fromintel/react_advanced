@@ -3,5 +3,6 @@
   "article_details_content": "Article details content",
   "article_image_block_component": "Article image block component",
   "article_text_block_component": "Article text block component",
-  "comments_title": "Comments"
+  "comments_title": "Comments",
+  "back_to_list": "Back to list"
 }
