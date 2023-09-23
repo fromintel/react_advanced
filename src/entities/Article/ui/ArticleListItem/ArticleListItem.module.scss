@@ -5,6 +5,7 @@
 .eyeIcon {
   max-width: 20px;
   width: 100%;
+  fill: var(--inverted-secondary-color);
 }
 
 .views {
@@ -46,6 +47,7 @@
   .footer {
     display: flex;
     align-items: center;
+    margin-top: 15px;
   }
 }
 

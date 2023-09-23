@@ -22,5 +22,6 @@
   "comments_error_title": "Comments are unavailable for now...",
   "comments_error_subtitle": "Please try to refresh the page to get all comments for this article",
   "enter_comment": "Please enter the comment...",
-  "send_comment": "Send comment"
+  "send_comment": "Send comment",
+  "read_more": "Read more"
 }

@@ -1,0 +1,15 @@
+.ArticleViewSwitcher {
+  width: auto;
+}
+
+.icon {
+  width: 15px;
+}
+
+.selected {
+  fill: var(--inverted-secondary-color);
+}
+
+.selectedBtn {
+  cursor: not-allowed;
+}
