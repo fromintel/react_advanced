@@ -5,6 +5,7 @@ import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/Dynamic
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { useSelector } from 'react-redux';
+import { Page } from 'shared/ui/Page/Page';
 import {
   getArticlesPageError,
   getArticlesPageIsLoading,
@@ -43,14 +44,14 @@ const ArticlesPage: FC<ArticlesPageProps> = ({ className }: ArticlesPageProps) =
 
   return (
     <DynamicModuleLoader reducers={reducers}>
-      <div className={classNames(cls.ArticlesPage, {}, [className])}>
+      <Page className={classNames(cls.ArticlesPage, {}, [className])}>
         <ArticleViewSwitcher className={cls.articleSwitcher} view={currentView} onViewClick={onChangeView} />
         <ArticleList
           isLoading={isLoading}
           articles={articles}
           view={currentView}
         />
-      </div>
+      </Page>
     </DynamicModuleLoader>
   );
 };
