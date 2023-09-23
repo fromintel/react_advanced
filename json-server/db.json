@@ -14,14 +14,14 @@
   "articles": [
     {
       "id": "1",
-      "title": "Article title 1",
-      "subtitle": "Article subtitle 1",
-      "img": "https://www.vskills.in/certification/blog/wp-content/uploads/2015/01/structure-of-a-news-report.jpg",
-      "views": 1745,
-      "createdAt": "11.04.2022",
+      "title": "Getting To Know Angular Components",
+      "subtitle": "",
+      "img": "https://www.oditeksolutions.com/wp-content/uploads/2015/10/AngularJS-Framework-and-Features.png",
+      "views": 245,
+      "createdAt": "11.05.2023",
       "userId": "1",
       "type": [
-        "other"
+        "IT"
       ],
       "blocks": [
         {
@@ -29,107 +29,313 @@
           "type": "TEXT",
           "title": "Title of this block",
           "paragraphs": [
-            "test1 test2 test3 test4",
-            "test1 test2 test3 test4 test5",
-            "test1 test2 test3 test4 test5 test6"
-          ]
-        },
-        {
-          "id": "4",
-          "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
-        },
-        {
-          "id": "5",
-          "type": "TEXT",
-          "title": "Title of this block",
-          "paragraphs": [
-            "test1 test2 test3 test4",
-            "test1 test2 test3 test4 test5 test6758"
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
           ]
         },
         {
           "id": "2",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Image 1 - screenshot"
+          "type": "TEXT",
+          "title": "What Are Angular Components Exactly?",
+          "paragraphs": [
+            "Components lie at the foundation of Angular applications. They interact similar to how HTML elements do in terms of passing data between elements and emitting events. Each of the components has some behavior attached to it that tells what data to render or load and a template that tells it how to render the data. An Angular application is based on a component tree structure where different components have child components and so on. Data is shared from parent to child components through an ‘input binding.’ Similarly, it can be shared the other way around through outputs."
+          ]
         },
         {
           "id": "3",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/upload_files/728/924/f78/728924f789b71623ac6382bf38f87e0e.png",
+          "title": "Angular component tree"
+        },
+        {
+          "id": "4",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "Components are the first elements to be rendered when bootstrapping and rendering an Angular application. Specifically, the App component is rendered and its child components alongside it. Throughout the user journey of the application, some components are being constantly removed while new ones are loaded and rendered. This continues on until the application is finally closed.",
+            "Components are also very helpful in the automated testing of Angular applications. Due to how fundamental they are to the application, testing components is often the most crucial part of testing. The components can be tested using many different frameworks such as Jasmine, Karma, or even Angular’s own testing utilities. More complex components obviously require complex tests for quality assurance, so it is better to create smaller components that can be validated quickly and easily.Components are also very helpful in the automated testing of Angular applications. Due to how fundamental they are to the application, testing components is often the most crucial part of testing. The components can be tested using many different frameworks such as Jasmine, Karma, or even Angular’s own testing utilities. More complex components obviously require complex tests for quality assurance, so it is better to create smaller components that can be validated quickly and easily."
+          ]
+        },
+        {
+          "id": "5",
           "type": "CODE",
-          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+          "code": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n\tselector: 'example_app',\n\ttemplateUrl: './component.example.html',\n\tstyleUrls: ['./component.example.css']\n})\n\nexport class ExampleApp implements OnInit { \n  constructor() { }\n}"
+        },
+        {
+          "id": "6",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "Here, the selector part is telling how the component is to be associated with a certain HTML element in the application's template. The templateUrl basically gives the location for the component’s template HTML file. styleUrls gives the location of a CSS file for additional styling instructions, which works along with the component’s template."
+          ]
         },
         {
           "id": "7",
           "type": "TEXT",
-          "title": "Title of this block",
+          "title": "How To Configure An Angular Component?",
           "paragraphs": [
-            "test1 test2 test3 test4",
-            "test1 test2 test3 test4 test45",
-            "test1 test2 test3 test4 test4 test4asd test4133 test4123"
+            "Once an Angular component has been declared, it is provided with its main logic that defines its functionality. In the example below, you can see how the ExampleApp component is defining data, along with methods, that is further used by the template HTML file that is given below."
           ]
         },
         {
           "id": "8",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Image 1 - screenshot"
+          "type": "CODE",
+          "code": "<h1>{{ username }}</h1>\n<span>Change Name: </span><input [(ngModel)]=\"username\">\n<h3>Posts: {{ totalPosts }}</h3>\n<ul>\n<hr/>\n<div *ngFor=\"let post of posts; let i=index\">\n\t<button (click)=\"deletePost(i)\">DELETE</button>\n\t<h6>{{ post.title }}</h6>\n\t<p>{{ post.body }}</p>\n\t<hr/>\n</div>\n</ul>"
         },
         {
           "id": "9",
           "type": "TEXT",
-          "title": "Title of this block",
+          "title": "",
           "paragraphs": [
-            "test1 test2"
+            "The data defined by the component is used by the HTML file in curly brackets. Alongside that, the deletePost method is bound with the DELETE button and is triggered every time it is pressed. Even the username can be changed through the input box generated by the HTML file."
           ]
         },
         {
           "id": "10",
           "type": "TEXT",
-          "title": "Title of this block",
+          "title": "Including Inputs In Component",
           "paragraphs": [
-            "test1 test2 test3 test4",
-            "test1 test2 test3 test4 test5 test67583",
-            "test1 test2 test3 test4 test5 test67584",
-            "test1 test2 test3 test4 test5 test67585",
-            "test1 test2 test3 test4 test5 test67586",
-            "test1 test2 test3 test4 test5 test67587"
+            "Inputs are a necessary part of a component tree structure and the Angular application in general. They can be implemented as shown in the following example."
           ]
         },
         {
           "id": "11",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Image 1 - screenshot"
+          "type": "CODE",
+          "code": "import { Component, Input } from '@angular/core';\n\n@Component({\n\tselector: 'example_app',\n\ttemplateUrl: './component.example.html',\n\tstyleUrls: ['./component.example.css']\n})\n\nexport class ExampleApp implements OnInit {\n\tconstructor() { }\n}\n\nexport class ExampleComponent2 {\n\t@Input() title: string = '';\n\t@Input() description: string = '';\n\t@Input('used') value: number = 0;\n\t@Input('available') max: number = 100;\n}\n"
         },
         {
           "id": "12",
           "type": "TEXT",
-          "title": "Title of this block",
+          "title": "",
           "paragraphs": [
-            "test1 test2 test3 test4",
-            "test1 test2 test3 test4 test5 test6758",
-            "test1 test2 test3 test4 test6758",
-            "test1 test2 test3 test5 test6758",
-            "test1 test2 test4 test5 test6758",
-            "test1 test3 test4 test5 test6758",
-            "test1 test2 test5 test6758",
-            "test1  test5 test6758",
-            "test1 test2 test3 test6758",
-            "test1 test2 test3",
-            "test1"
+            "ExampleComponent2 shows all the different data values that can be received from the parent component. If not passed, they are assigned their default values which are also defined in the component. @Input() helps specify that these variables can receive input and in the last two values, it also provides aliases inside the bracket. These aliases can be used in the HTML file and Angular would still direct them to these variables. @Output() works in a similar way and declares a variable to be a way to pass data to a parent component. The parent’s and child’s template files are then configured to forward and receive data through the specific variables."
           ]
         },
         {
           "id": "13",
-          "type": "IMAGE",
-          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
-          "title": "Image 1 - screenshot"
+          "type": "TEXT",
+          "title": "Conclusion",
+          "paragraphs": [
+            "It is not possible to use Angular and its powerful abilities without understanding components and how to use them. Learning them and configuring them is the first step towards Angular proficiency. The functionality of components can be further added to through many different ways which help in building complex but innovative web applications. These include functions to observe if an event regarding a component’s lifecycle has occurred (creation, removal, or rendering) called lifecycle hooks. Or pipes that show the transformation of data on the template HTML file, like the TitleCasePipe that takes a string and changes it all to title case."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "How to improve your skills in React",
+      "subtitle": "",
+      "img": "https://react.dev/images/og-home.png",
+      "views": 257,
+      "createdAt": "12.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
         },
         {
-          "id": "14",
+          "id": "2",
+          "type": "TEXT",
+          "title": "What Are Angular Components Exactly?",
+          "paragraphs": [
+            "Components lie at the foundation of Angular applications. They interact similar to how HTML elements do in terms of passing data between elements and emitting events. Each of the components has some behavior attached to it that tells what data to render or load and a template that tells it how to render the data. An Angular application is based on a component tree structure where different components have child components and so on. Data is shared from parent to child components through an ‘input binding.’ Similarly, it can be shared the other way around through outputs."
+          ]
+        },
+        {
+          "id": "3",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/upload_files/728/924/f78/728924f789b71623ac6382bf38f87e0e.png",
+          "title": "Angular component tree"
+        },
+        {
+          "id": "4",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "Components are the first elements to be rendered when bootstrapping and rendering an Angular application. Specifically, the App component is rendered and its child components alongside it. Throughout the user journey of the application, some components are being constantly removed while new ones are loaded and rendered. This continues on until the application is finally closed.",
+            "Components are also very helpful in the automated testing of Angular applications. Due to how fundamental they are to the application, testing components is often the most crucial part of testing. The components can be tested using many different frameworks such as Jasmine, Karma, or even Angular’s own testing utilities. More complex components obviously require complex tests for quality assurance, so it is better to create smaller components that can be validated quickly and easily.Components are also very helpful in the automated testing of Angular applications. Due to how fundamental they are to the application, testing components is often the most crucial part of testing. The components can be tested using many different frameworks such as Jasmine, Karma, or even Angular’s own testing utilities. More complex components obviously require complex tests for quality assurance, so it is better to create smaller components that can be validated quickly and easily."
+          ]
+        },
+        {
+          "id": "5",
           "type": "CODE",
-          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+          "code": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n\tselector: 'example_app',\n\ttemplateUrl: './component.example.html',\n\tstyleUrls: ['./component.example.css']\n})\n\nexport class ExampleApp implements OnInit { \n  constructor() { }\n}"
+        },
+        {
+          "id": "6",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "Here, the selector part is telling how the component is to be associated with a certain HTML element in the application's template. The templateUrl basically gives the location for the component’s template HTML file. styleUrls gives the location of a CSS file for additional styling instructions, which works along with the component’s template."
+          ]
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "How To Configure An Angular Component?",
+          "paragraphs": [
+            "Once an Angular component has been declared, it is provided with its main logic that defines its functionality. In the example below, you can see how the ExampleApp component is defining data, along with methods, that is further used by the template HTML file that is given below."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "CODE",
+          "code": "<h1>{{ username }}</h1>\n<span>Change Name: </span><input [(ngModel)]=\"username\">\n<h3>Posts: {{ totalPosts }}</h3>\n<ul>\n<hr/>\n<div *ngFor=\"let post of posts; let i=index\">\n\t<button (click)=\"deletePost(i)\">DELETE</button>\n\t<h6>{{ post.title }}</h6>\n\t<p>{{ post.body }}</p>\n\t<hr/>\n</div>\n</ul>"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "The data defined by the component is used by the HTML file in curly brackets. Alongside that, the deletePost method is bound with the DELETE button and is triggered every time it is pressed. Even the username can be changed through the input box generated by the HTML file."
+          ]
+        },
+        {
+          "id": "10",
+          "type": "TEXT",
+          "title": "Including Inputs In Component",
+          "paragraphs": [
+            "Inputs are a necessary part of a component tree structure and the Angular application in general. They can be implemented as shown in the following example."
+          ]
+        },
+        {
+          "id": "11",
+          "type": "CODE",
+          "code": "import { Component, Input } from '@angular/core';\n\n@Component({\n\tselector: 'example_app',\n\ttemplateUrl: './component.example.html',\n\tstyleUrls: ['./component.example.css']\n})\n\nexport class ExampleApp implements OnInit {\n\tconstructor() { }\n}\n\nexport class ExampleComponent2 {\n\t@Input() title: string = '';\n\t@Input() description: string = '';\n\t@Input('used') value: number = 0;\n\t@Input('available') max: number = 100;\n}\n"
+        },
+        {
+          "id": "12",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "ExampleComponent2 shows all the different data values that can be received from the parent component. If not passed, they are assigned their default values which are also defined in the component. @Input() helps specify that these variables can receive input and in the last two values, it also provides aliases inside the bracket. These aliases can be used in the HTML file and Angular would still direct them to these variables. @Output() works in a similar way and declares a variable to be a way to pass data to a parent component. The parent’s and child’s template files are then configured to forward and receive data through the specific variables."
+          ]
+        },
+        {
+          "id": "13",
+          "type": "TEXT",
+          "title": "Conclusion",
+          "paragraphs": [
+            "It is not possible to use Angular and its powerful abilities without understanding components and how to use them. Learning them and configuring them is the first step towards Angular proficiency. The functionality of components can be further added to through many different ways which help in building complex but innovative web applications. These include functions to observe if an event regarding a component’s lifecycle has occurred (creation, removal, or rendering) called lifecycle hooks. Or pipes that show the transformation of data on the template HTML file, like the TitleCasePipe that takes a string and changes it all to title case."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Vue is the best framework for CRM systems",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        },
+        {
+          "id": "2",
+          "type": "TEXT",
+          "title": "What Are Angular Components Exactly?",
+          "paragraphs": [
+            "Components lie at the foundation of Angular applications. They interact similar to how HTML elements do in terms of passing data between elements and emitting events. Each of the components has some behavior attached to it that tells what data to render or load and a template that tells it how to render the data. An Angular application is based on a component tree structure where different components have child components and so on. Data is shared from parent to child components through an ‘input binding.’ Similarly, it can be shared the other way around through outputs."
+          ]
+        },
+        {
+          "id": "3",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/upload_files/728/924/f78/728924f789b71623ac6382bf38f87e0e.png",
+          "title": "Angular component tree"
+        },
+        {
+          "id": "4",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "Components are the first elements to be rendered when bootstrapping and rendering an Angular application. Specifically, the App component is rendered and its child components alongside it. Throughout the user journey of the application, some components are being constantly removed while new ones are loaded and rendered. This continues on until the application is finally closed.",
+            "Components are also very helpful in the automated testing of Angular applications. Due to how fundamental they are to the application, testing components is often the most crucial part of testing. The components can be tested using many different frameworks such as Jasmine, Karma, or even Angular’s own testing utilities. More complex components obviously require complex tests for quality assurance, so it is better to create smaller components that can be validated quickly and easily.Components are also very helpful in the automated testing of Angular applications. Due to how fundamental they are to the application, testing components is often the most crucial part of testing. The components can be tested using many different frameworks such as Jasmine, Karma, or even Angular’s own testing utilities. More complex components obviously require complex tests for quality assurance, so it is better to create smaller components that can be validated quickly and easily."
+          ]
+        },
+        {
+          "id": "5",
+          "type": "CODE",
+          "code": "import { Component, OnInit } from '@angular/core';\n\n@Component({\n\tselector: 'example_app',\n\ttemplateUrl: './component.example.html',\n\tstyleUrls: ['./component.example.css']\n})\n\nexport class ExampleApp implements OnInit { \n  constructor() { }\n}"
+        },
+        {
+          "id": "6",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "Here, the selector part is telling how the component is to be associated with a certain HTML element in the application's template. The templateUrl basically gives the location for the component’s template HTML file. styleUrls gives the location of a CSS file for additional styling instructions, which works along with the component’s template."
+          ]
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "How To Configure An Angular Component?",
+          "paragraphs": [
+            "Once an Angular component has been declared, it is provided with its main logic that defines its functionality. In the example below, you can see how the ExampleApp component is defining data, along with methods, that is further used by the template HTML file that is given below."
+          ]
+        },
+        {
+          "id": "8",
+          "type": "CODE",
+          "code": "<h1>{{ username }}</h1>\n<span>Change Name: </span><input [(ngModel)]=\"username\">\n<h3>Posts: {{ totalPosts }}</h3>\n<ul>\n<hr/>\n<div *ngFor=\"let post of posts; let i=index\">\n\t<button (click)=\"deletePost(i)\">DELETE</button>\n\t<h6>{{ post.title }}</h6>\n\t<p>{{ post.body }}</p>\n\t<hr/>\n</div>\n</ul>"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "The data defined by the component is used by the HTML file in curly brackets. Alongside that, the deletePost method is bound with the DELETE button and is triggered every time it is pressed. Even the username can be changed through the input box generated by the HTML file."
+          ]
+        },
+        {
+          "id": "10",
+          "type": "TEXT",
+          "title": "Including Inputs In Component",
+          "paragraphs": [
+            "Inputs are a necessary part of a component tree structure and the Angular application in general. They can be implemented as shown in the following example."
+          ]
+        },
+        {
+          "id": "11",
+          "type": "CODE",
+          "code": "import { Component, Input } from '@angular/core';\n\n@Component({\n\tselector: 'example_app',\n\ttemplateUrl: './component.example.html',\n\tstyleUrls: ['./component.example.css']\n})\n\nexport class ExampleApp implements OnInit {\n\tconstructor() { }\n}\n\nexport class ExampleComponent2 {\n\t@Input() title: string = '';\n\t@Input() description: string = '';\n\t@Input('used') value: number = 0;\n\t@Input('available') max: number = 100;\n}\n"
+        },
+        {
+          "id": "12",
+          "type": "TEXT",
+          "title": "",
+          "paragraphs": [
+            "ExampleComponent2 shows all the different data values that can be received from the parent component. If not passed, they are assigned their default values which are also defined in the component. @Input() helps specify that these variables can receive input and in the last two values, it also provides aliases inside the bracket. These aliases can be used in the HTML file and Angular would still direct them to these variables. @Output() works in a similar way and declares a variable to be a way to pass data to a parent component. The parent’s and child’s template files are then configured to forward and receive data through the specific variables."
+          ]
+        },
+        {
+          "id": "13",
+          "type": "TEXT",
+          "title": "Conclusion",
+          "paragraphs": [
+            "It is not possible to use Angular and its powerful abilities without understanding components and how to use them. Learning them and configuring them is the first step towards Angular proficiency. The functionality of components can be further added to through many different ways which help in building complex but innovative web applications. These include functions to observe if an event regarding a component’s lifecycle has occurred (creation, removal, or rendering) called lifecycle hooks. Or pipes that show the transformation of data on the template HTML file, like the TitleCasePipe that takes a string and changes it all to title case."
+          ]
         }
       ]
     }
@@ -155,6 +361,30 @@
       "postId": "1",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "test 1",
+      "id": "VgE5RVc"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "test 2",
+      "id": "FVu0R0R"
+    },
+    {
+      "articleId": "2",
+      "userId": "1",
+      "text": "test 3",
+      "id": "IeqiMhB"
+    },
+    {
+      "articleId": "3",
+      "userId": "1",
+      "text": "test 4",
+      "id": "fBuarq-"
     }
   ],
   "users": [
