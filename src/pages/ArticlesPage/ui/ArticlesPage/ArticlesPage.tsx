@@ -35,8 +35,10 @@ const ArticlesPage: FC<ArticlesPageProps> = ({ className }: ArticlesPageProps) =
   }, [dispatch]);
 
   useInitialEffect(() => {
-    dispatch(fetchArticlesList());
     dispatch(articlesPageAction.initState());
+    dispatch(fetchArticlesList({
+      page: 1,
+    }));
   });
 
   return (
