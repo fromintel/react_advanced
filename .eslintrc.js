@@ -48,11 +48,12 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
     'no-param-reassign': 'off',
+    'react/no-array-index-key': 'off',
     'i18next/no-literal-string':
         ['error',
           { markupOnly: true, ignoreAttribute: ['stroke', 'data-testid', 'to'] },
         ],
-    'max-len': ['error', { ignoreComments: true, code: 110 }],
+    'max-len': ['error', { ignoreComments: true, code: 115 }],
     'no-undef': 'off',
   },
   globals: {
