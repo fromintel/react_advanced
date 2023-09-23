@@ -338,6 +338,696 @@
           ]
         }
       ]
+    },
+    {
+      "id": "4",
+      "title": "Another Article 4",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Another Article 5",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Another Article 6",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Another Article 7",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Another Article 8",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Another Article 9",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Another Article 10",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Another Article 11",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Another Article 12",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Another Article 13",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Another Article 14",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Another Article 14",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Another Article 16",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Another Article 17",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Another Article 18",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Another Article 19",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Another Article 20",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Another Article 21",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Another Article 22",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Another Article 23",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Another Article 24",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Another Article 25",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Another Article 26",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Another Article 27",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Another Article 28",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Another Article 29",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Another Article 30",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Another Article 31",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Another Article 32",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Another Article 33",
+      "subtitle": "",
+      "img": "https://thehotskills.com/wp-content/uploads/2021/09/Vuejs-Framework.jpg",
+      "views": 356,
+      "createdAt": "13.05.2023",
+      "userId": "1",
+      "type": [
+        "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "Angular is one of the most popular front-end development frameworks out there. It is a leading choice for personal as well as industry-level development of web applications due to its robust capabilities. While Angular is popular for many different reasons, one of the main ones is its modular nature. Modularity makes it easy for the developer to keep track of all the different elements being used to program functionalities. It also helps in keeping consistency and even reusing a block of code or functionality multiple times.",
+            "This modularity lies at the heart of Angular in the form of elements called components. This article will quickly take you through all the important bits to know about Angular components, their usage, how they are useful, and some code examples. Components make Angular easy to learn and applications easy to structure. Through this article, you’ll get to see how Angular components make all of this possible."
+          ]
+        }
+      ]
     }
   ],
   "comments": [

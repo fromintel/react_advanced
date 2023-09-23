@@ -16,6 +16,7 @@ import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { AddCommentForm } from 'features/addCommentForm';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { RoutePath } from 'shared/config/routesConfig/routesConfig';
+import { Page } from 'shared/ui/Page/Page';
 import { addCommentForArticle } from '../../model/services/addCommentForArticle/addCommentForArticle';
 import {
   fetchCommentsByArticleId,
@@ -64,7 +65,7 @@ const ArticleDetailsPage: FC<ArticleDetailsPageProps> = ({ className }: ArticleD
 
   return (
     <DynamicModuleLoader reducers={reducers} removeAfterUnmount>
-      <div className={classNames(cls.ArticleDetailsPage, {}, [className])}>
+      <Page className={classNames(cls.ArticleDetailsPage, {}, [className])}>
         <Button
           onClick={onBackToList}
           theme={ButtonTheme.OUTLINE}
@@ -78,7 +79,7 @@ const ArticleDetailsPage: FC<ArticleDetailsPageProps> = ({ className }: ArticleD
           isLoading={commentsIsLoading}
           comments={comments}
         />
-      </div>
+      </Page>
     </DynamicModuleLoader>
   );
 };
